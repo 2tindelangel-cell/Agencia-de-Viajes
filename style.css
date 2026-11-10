@@ -20,15 +20,19 @@ body {
 }
 
 .panoramic-image {
-    width: 60%;
+    width: 30%;
     height: 120px;
-    background: linear-gradient(45deg, #3b82f6, #10b981);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     border-radius: 8px;
     font-weight: bold;
+}
+.panoramic-image img{
+    width: 800px;
+    height: 150px;
+    padding-left: 200px;
 }
 
 .logo-section {
@@ -58,7 +62,7 @@ body {
     font-weight: bold;
     
     /* Error intencional: Cambiar a flex para que se alinee horizontalmente */
-    display: block; 
+    display: flex; 
 }
 
 .client-data {
